@@ -38,7 +38,7 @@
                 
                 
             	// Una vez creada la tabla, inserta entradas en ella
-            	tx.executeSql('INSERT INTO libros (titulo, autor) VALUES ('+prueba+', "Carlos Solis")');
+            	tx.executeSql('INSERT INTO libros (titulo, autor) VALUES ("'+prueba+'", "Carlos Solis")');
             	tx.executeSql('INSERT INTO libros (titulo, autor) VALUES ("Abraham Lincoln: Cazador de Vampiros", "Seth Grahame-Smith")');
             	tx.executeSql('INSERT INTO libros (titulo, autor) VALUES ("Alicia en el pais de las maravillas", "Lewis Caroll")');
                 
